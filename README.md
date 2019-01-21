@@ -6,9 +6,9 @@ logic and prevent errors
 ## Install
 ```bash
 # Using npm
-npm i da-pirate
+npm i the-pirate
 # Using yarn
-yarn add da-pirate
+yarn add the-pirate
 ```
 
 ## General examples
