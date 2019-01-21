@@ -3,6 +3,14 @@
 Da Pirate is a lib that has some util functions that can abstract
 logic and prevent errors
 
+## Install
+```bash
+# Using npm
+npm i da-pirate
+# Using yarn
+yarn add da-pirate
+```
+
 ## General examples
 ```js
 import * as pirate from 'the-pirate'
