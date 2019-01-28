@@ -7,6 +7,8 @@ export const uuidv4 = _ =>
 
 export cnpj from './number-use/cnpj'
 
+export cpf from './number-use/cpf'
+
 export const normalizeLocalCurrency = (numInput) => {
     const input = numInput + ''
     const getSeparator = () => {
