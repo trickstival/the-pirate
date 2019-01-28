@@ -1,6 +1,6 @@
-# Da Pirate JS
+# The Pirate JS
 
-Da Pirate is a lib that has some util functions that can abstract
+The Pirate is a lib that has some util functions that can abstract
 logic and prevent errors
 
 ## Install
