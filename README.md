@@ -64,3 +64,7 @@ strPi.toSnakeCase('Hello World')//hello_world
 strPi.toSnakeCase('HelloWórld')//hello_wrld
 
 ```
+
+Note: not all functions were made from ground up.
+Some of them were taken from forums or at least inspired on
+forum answers.
