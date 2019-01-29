@@ -1,10 +1,12 @@
-import iDom from './dom'
-import iNumeric from './numeric'
-import iString from './string'
+import * as iDom from './dom'
+import * as iNumeric from './numeric'
+import * as iString from './string'
+import * as iColor from './color'
 
 export const dom = iDom
 export const numeric = iNumeric
 export const string = iString
+export const color = iColor
 
 export const truthyJoin = (toMerge, separator = ' ') => {
     if (Array.isArray(toMerge)) {
