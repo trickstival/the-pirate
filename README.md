@@ -47,6 +47,9 @@ import { numeric as numPyrate } from 'the-pirate'
 numPyrate.validateCNPJ('18.837.197/0001-83') // true
 numPyrate.validateCNPJ('47.372.635/4756-32') // false
 
+numPyrate.validateCPF('93549281021') // true
+numPyrate.validateCPF('34549284521') // false
+
 numPyrate.normalizeLocalCurrency('20,000.04') // 20000.04 float
 numPyrate.normalizeLocalCurrency('20.000,04') // 20000.04 float
 ```
@@ -57,5 +60,7 @@ import { string as strPi } from 'the-pirate'
 strPi.isURL('http://google.com') // true
 strPi.isURL('this is not an url') // false
 strPi.interpol('Hello', 'World') // 'Hello World'
+strPi.toSnakeCase('Hello World')//hello_world
+strPi.toSnakeCase('HelloWórld')//hello_wrld
 
 ```

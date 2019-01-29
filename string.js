@@ -9,3 +9,11 @@ export const interpol = (item1, item2) => {
     }
     return `${item1} ${item2}`
 }
+
+export const toSnakeCase = (text) => {
+    return text.replace(/[^\w]/gi, '')
+        .replace(/\.?([A-Z])/g, (x, y) => {
+            return '_' + y.toLowerCase()
+        })
+        .replace(/^_/, '')
+}
