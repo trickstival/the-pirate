@@ -1,6 +1,10 @@
-export dom from './dom'
-export numeric from './numeric'
-export string from './string'
+import iDom from './dom'
+import iNumeric from './numeric'
+import iString from './string'
+
+export const dom = iDom
+export const numeric = iNumeric
+export const string = iString
 
 export const truthyJoin = (toMerge, separator = ' ') => {
     if (Array.isArray(toMerge)) {
