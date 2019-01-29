@@ -38,6 +38,8 @@ imagine this span is in a structure like this:
 const spanChild = document.querySelector('.child')
 dom.closest(spanChild, '.parent') // returns the h2 that has the .parent class
 
+dom.scrollTo('.parent') // scrolls to parent
+
 ```
 
 ## Numeric utils
@@ -62,6 +64,19 @@ strPi.isURL('this is not an url') // false
 strPi.interpol('Hello', 'World') // 'Hello World'
 strPi.toSnakeCase('Hello World')//hello_world
 strPi.toSnakeCase('HelloWórld')//hello_wrld
+
+```
+
+## Color examples
+```js
+import { color } from 'the-pirate'
+// r, g, b
+color.isLight(0, 0, 0) // false
+
+color.hexToRgb('#aa7392') // { r: 170, g: 115, b: 146 }
+
+color.blackOrWhite('#ddd') // black
+color.blackOrWhite('#200') // white
 
 ```
 
