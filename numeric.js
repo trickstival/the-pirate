@@ -5,8 +5,8 @@ export const uuidv4 = _ =>
         return value.toString(16)
     })
 
-import * as cnpj from './number-use/cnpj'
-import * as cpf from './number-use/cpf'
+import * as cnpj from './numeric/cnpj'
+import * as cpf from './numeric/cpf'
 
 export {
     cpf, cnpj
