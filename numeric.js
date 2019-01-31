@@ -5,9 +5,12 @@ export const uuidv4 = _ =>
         return value.toString(16)
     })
 
-export cnpj from './number-use/cnpj'
+import * as cnpj from './number-use/cnpj'
+import * as cpf from './number-use/cpf'
 
-export cpf from './number-use/cpf'
+export {
+    cpf, cnpj
+}
 
 export const normalizeLocalCurrency = (numInput) => {
     const input = numInput + ''
