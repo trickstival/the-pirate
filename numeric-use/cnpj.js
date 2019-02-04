@@ -51,3 +51,7 @@ export function validateCNPJ (cnpj) {
     }
     return !!(isDigitValid(getRest(weightedSum([...number, validador_um], PESOS_SEGUNDO_DIGITO_VERIFICADOR)), segundo_digito) !== false)
 }
+
+export const formatCNPJ = (cnpj) => {
+    return cnpj.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2}).*/, '$1.$2.$3/$4-$5')
+}

@@ -35,3 +35,7 @@ export const validateCPF = (cpf) => {
     }
     return true
 }
+
+export const formatCPF = (cpf) => {
+    return cpf.replace(/^(\d{3})(\d{3})(\d{3})(\d{2}).*/, '$1.$2.$3-$4')
+}
